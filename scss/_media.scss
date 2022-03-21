@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+  #intro {
+    width: 90% !important;
+  }
+  #bg-imagen {
+    top: -110px;
+  }
+}
+@media (max-width: 576px) {
+  #intro {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+}
