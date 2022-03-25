@@ -1,120 +1,93 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap);
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 body {
   font-family: "monserrat", sans-serif;
   overflow-x: hidden;
-  background-color: rgba(92, 92, 165, 0.637);
-}
+  background-color: rgba(92, 92, 165, 0.637); }
 
 #menu li > a {
   font-size: 18px;
   font-weight: bold;
-  color: black;
-}
+  color: black; }
 
 #menu form > button {
   font-size: 18px;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .carousel-inner {
-  max-height: 39rem;
-}
+  max-height: 39rem; }
 
 #bg-imagen {
   position: relative;
-  top: -130px;
-}
+  top: -130px; }
 
 #seccion-imagen {
   background-color: #193b8bde;
   min-height: 500px;
-  position: relative;
-}
+  position: relative; }
 
 #contenedor-formulario {
   background: #fbfafa;
   border-radius: 5px;
   max-width: 500px;
-  margin-top: 5%;
-}
+  margin-top: 5%; }
 
 #titulo-formulario {
-  color: #3f3f3f;
-}
+  color: #3f3f3f; }
 
 Footer {
   color: black;
-  min-height: 100px;
-}
+  min-height: 100px; }
 
 footer p {
   color: black;
-  text-align: center;
-}
+  text-align: center; }
 
 #iconos i {
   font-size: 26px;
-  padding: 0 8px;
-}
+  padding: 0 8px; }
 
 .redes {
-  display: inline-block;
-}
+  display: inline-block; }
 
 .bi-facebook {
   text-align: center;
   margin-left: 5px;
   margin-right: 5px;
-  color: #fff;
-}
-
-.bi-facebook:hover {
-  color: #3b5998;
-}
+  color: #fff; }
+  .bi-facebook:hover {
+    color: #3b5998; }
 
 .bi-whatsapp {
   text-align: center;
   margin-left: 5px;
   margin-right: 5px;
-  color: #fff;
-}
-
-.bi-whatsapp:hover {
-  color: #25d366;
-}
+  color: #fff; }
+  .bi-whatsapp:hover {
+    color: #25d366; }
 
 .bi-instagram {
   text-align: center;
   margin-left: 5px;
   margin-right: 5px;
-  color: #fff;
-}
-
-.bi-instagram:hover {
-  color: #8a3ab9;
-}
+  color: #fff; }
+  .bi-instagram:hover {
+    color: #8a3ab9; }
 
 @media (max-width: 768px) {
   #intro {
-    width: 90% !important;
-  }
+    width: 90% !important; }
   #bg-imagen {
-    top: -110px;
-  }
-}
+    top: -110px; } }
 
 @media (max-width: 576px) {
   #intro {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
-  }
-}
-/*# sourceMappingURL=estilo.css.map */
+    flex-wrap: wrap;
+    justify-content: center !important; } }
+
+@media (max-width: 1200px) {
+  #intro {
+    width: 90% !important; } }

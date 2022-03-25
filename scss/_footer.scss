@@ -1,3 +1,7 @@
+$face: #3b5998;
+$inst: #8a3ab9;
+$whap: #25d366;
+
 #contenedor-formulario {
   background: #fbfafa;
   border-radius: 5px;
@@ -25,36 +29,25 @@ footer p {
 .redes {
   display: inline-block;
 }
-
-.bi-facebook {
+@mixin redes($hover) {
   text-align: center;
   margin-left: 5px;
   margin-right: 5px;
   color: #fff;
+
+  &:hover {
+    color: $hover;
+  }
 }
 
-.bi-facebook:hover {
-  color: #3b5998;
+.bi-facebook {
+  @include redes($face);
 }
 
 .bi-whatsapp {
-  text-align: center;
-  margin-left: 5px;
-  margin-right: 5px;
-  color: #fff;
-}
-
-.bi-whatsapp:hover {
-  color: #25d366;
+  @include redes($whap);
 }
 
 .bi-instagram {
-  text-align: center;
-  margin-left: 5px;
-  margin-right: 5px;
-  color: #fff;
-}
-
-.bi-instagram:hover {
-  color: #8a3ab9;
+  @include redes($inst);
 }
